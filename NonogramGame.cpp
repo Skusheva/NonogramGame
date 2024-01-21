@@ -77,8 +77,8 @@ void HasAPersonAlreadyAccountOrWillCreateANewOne()
 	cout << "Welcome to the Nonogram game! I appreciate you playing my game and now you can start the game after you login!" << endl;
 	cout << "Do you have already an account? (write \"1\" in case you have OR \"0\" in case you don't have, please: ";
 	const size_t MAX_LEN_OF_ANSWER = 3;
-	char answer[MAX_LEN_OF_ANSWER];
-	cin.getline(answer, MAX_LEN_OF_ANSWER);
+	bool answer;
+	cin >> answer;
 	char username[MAX_LEN_LOGIN_INFO];
 	char password[MAX_LEN_LOGIN_INFO];
 	if (answer)

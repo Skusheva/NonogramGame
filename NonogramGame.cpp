@@ -3,6 +3,22 @@
 #include <string>
 using namespace std;
 
+/**
+*
+* Solution to course project # 9
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2023/2024
+*
+* @Savina Kostadinova Kusheva
+* @idnumber 6MI0600395
+* @compiler VS
+*
+* <main file with all functions>
+*
+*/
+
+
 const size_t MAX_LEN_OF_NAME_OF_FILE = 105;
 const size_t MAX_LEN_LOGIN_INFO = 100;
 size_t countOfPossibleMistakesAccordingToTheCurrentLevel = 3; // by default 3 for the first level

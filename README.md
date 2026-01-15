@@ -1,17 +1,33 @@
-NONOGRAM GAME  
+ # Nonogram Game  
 
-  A simple C++ program to play nonogram puzzles
+  A simple C++ console application for playing Nonogram puzzles.
+
+  ## Description 
   
-This is a basic implementation of the nomogram game that you can play on 5 different difficulty levels. The only thing you need is to first create your profile-username and password and then try to solve all 5 levels of the game.
+This project is a basic implementation of the Nomogram game developed as part of the "Introduction to Programing" course. The player can choose from 5 different difficulty levels. Before starting the game, the user creates a profile with a username and password and then tries to solve all levels.
 
-           Functionality:
-            -maintaining player profiles
-            -reading a matrix from a file
-            -solve the matrix by entering coordinates for a filled or empty field
+ ## Functionality
 
-        HOW TO PLAY?
-    - After you create your profile, the program will load the matrix, 
-      which you will have to guess which position is full and which is empty. 
-      But you should know that you have a certain number of wrong answers. 
-      If you exceed this number you lose the game.
+            - Maintaining player profiles
+            - Reading a matrix from a file
+            - Solving the puzzle by entering coordinates for filled or empty cells
+            - Limited number of wrong answers per level.
+
+ ## How to play
+
+            - After you create your profile, the program will load the matrix
+            - The player must guess which positions are filled and which are empty
+            - The player has a limited number of wrong answers.
+            - Exceeding the allowed number ot wrong answers results in losing the game
+
+ ## Technologies
+  - C++
+
+ ## What I learned
+  - Working with multidimensional arrays
+  - Implementing game logic
+  - File input/output in C++
+  - Structuring a larger console application
+
+
 I wish you good luck and have fun with my version of the Nonograms game!

@@ -30,4 +30,4 @@ This project is a basic implementation of the Nomogram game developed as part of
   - Structuring a larger console application
 
 
-I wish you good luck and have fun with my version of the Nonograms game!
+### I wish you good luck and have fun with my version of the Nonograms game!
